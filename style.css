@@ -1,0 +1,83 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+}
+
+.top-header{
+    background-color: #1f2937;
+    color: white;
+}
+
+.header-links{
+    display: flex;
+    gap: 16px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-heading-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.midsection{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.mid-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1f2937;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+
+.quote-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+
+.signup-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+}
